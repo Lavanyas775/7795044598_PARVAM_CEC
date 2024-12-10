@@ -1,10 +1,12 @@
-//program to print sequence 1 2 3 4 5...n
+//print summation of a number using for//
 #include<stdio.h>
 int main()
 {
     int n=0;
     scanf("%d",&n);
+    int sum=0;
     for(int i=1;i<=n;i++)
-    printf("%d",i);
+      sum+=i;
+      printf("%d",sum);
     return 0;
 }

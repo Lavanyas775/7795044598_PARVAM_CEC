@@ -6,7 +6,6 @@ int main()
     scanf("%d",&n);
     int array[]={1,2,3,4,5};
     for(int i=0;i<n;scanf("%d",&array[i++]));
-    
     for(int i=0;i<n;printf("%d ",array[i++]));
     return 0;
 }
